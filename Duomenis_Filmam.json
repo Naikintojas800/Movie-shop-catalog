@@ -1,0 +1,893 @@
+{
+  "movies": [
+    {
+      "id": "1",
+      "title": "Inception",
+      "year": 2010,
+      "genre": "Sci-Fi",
+      "director": {
+        "name": "Christopher Nolan",
+        "birth_year": 1970,
+        "awards_count": 15,
+        "movies_directed": ["Inception", "500 Days of Summer", "Looper", "The Dark Knight Rises"],
+        "years_of_directing": 33
+      },
+      "plot": "A skilled thief is given a chance to have his criminal record erased if he can successfully perform an inception: planting an idea into the mind of a CEO.",
+      "rating": 8.8,
+      "actors": [
+        {
+          "name": "Leonardo DiCaprio",
+          "birth_year": 1974,
+          "awards_count": 23,
+          "movies_starred_in": ["Inception", "The Wolf of Wall Street", "Titanic", "Shutter Island"]
+        },
+        {
+          "name": "Joseph Gordon-Levitt",
+          "birth_year": 1981,
+          "awards_count": 5,
+          "movies_starred_in": ["Inception", "500 Days of Summer", "Looper", "The Dark Knight Rises"]
+        },
+        {
+          "name": "Ellen Page",
+          "birth_year": 1987,
+          "awards_count": 1,
+          "movies_starred_in": ["Inception", "Juno", "Hard Candy", "Whip It"]
+        }
+      ],
+      "price": 19.99,
+      "poster_link": "https://linktotheposter.com/inception.jpg"
+    },
+    {
+      "id": "2",
+      "title": "21 Jump Street",
+      "year": 2012,
+      "genre": "Action, Comedy, Crime",
+      "director": {
+        "name": "Christopher Miller",
+        "birth_year": 1977,
+        "awards_count": 12,
+        "movies_directed": ["21 Jump Street", "22 Jump Street", "The Lego Movie", "Cloudy with a Chance of Meatballs"],
+        "years_of_directing": 18
+      },
+      "plot": "A pair of underachieving cops are sent back to high school to blend in and bring down a synthetic drug ring.",
+      "rating": 7.2,
+      "actors": [
+        {
+          "name": "Channing Tatum",
+          "birth_year": 1980,
+          "awards_count": 10,
+          "movies_starred_in": ["21 Jump Street", "Magic Mike", "21 Jump Street", "The Vow"]
+        },
+        {
+          "name": "Jonah Hill",
+          "birth_year": 1983,
+          "awards_count": 10,
+          "movies_starred_in": ["21 Jump Street", "22 Jump Street", "Superbad", "The Wolf of Wall Street"]
+        },
+        {
+          "name": "Ice Cube",
+          "birth_year": 1969,
+          "awards_count": 5,
+          "movies_starred_in": ["21 Jump Street", "Ride Along", "Barbershop", "Anaconda"]
+        }
+      ],
+      "price": 14.99,
+      "poster_link": "https://linktotheposter.com/21jumpstreet.jpg"
+    },
+    {
+      "id": "3",
+      "title": "What We Do in the Shadows",
+      "year": 2014,
+      "genre": "Comedy, Horror",
+      "director": {
+        "name": "Taika Waititi",
+        "birth_year": 1974,
+        "awards_count": 7,
+        "movies_directed": ["What We Do in the Shadows", "Hunt for the Wilderpeople", "Flight of the Conchords", "The Invention of Lying"],
+        "years_of_directing": 12
+      },
+      "plot": "A documentary-style look into the lives of four vampire roommates trying to live normal lives in modern-day New Zealand.",
+      "rating": 7.6,
+      "actors": [
+        {
+          "name": "Jemaine Clement",
+          "birth_year": 1974,
+          "awards_count": 5,
+          "movies_starred_in": ["What We Do in the Shadows", "Hunt for the Wilderpeople", "Flight of the Conchords", "The Muppets"]
+        },
+        {
+          "name": "Taika Waititi",
+          "birth_year": 1975,
+          "awards_count": 14,
+          "movies_starred_in": ["What We Do in the Shadows", "Hunt for the Wilderpeople", "Thor: Ragnarok", "Jojo Rabbit"]
+        },
+        {
+          "name": "Jonathan Brugh",
+          "birth_year": 1980,
+          "awards_count": 2,
+          "movies_starred_in": ["What We Do in the Shadows", "The Almighty Johnsons", "The Breaker Upperers"]
+        }
+      ],
+      "price": 12.99,
+      "poster_link": "https://linktotheposter.com/whatwedointheshadows.jpg"
+    },
+    {
+      "id": "4",
+      "title": "Titanic",
+      "year": 1997,
+      "genre": "Drama, Romance",
+      "director": {
+        "name": "James Cameron",
+        "birth_year": 1954,
+        "awards_count": 25,
+        "movies_directed": ["Titanic", "Avatar", "The Terminator", "Aliens"],
+        "years_of_directing": 42
+      },
+      "plot": "A seventeen-year-old aristocrat falls in love with a kind but poor artist aboard the luxurious, ill-fated R.M.S. Titanic.",
+      "rating": 7.8,
+      "actors": [
+        {
+          "name": "Leonardo DiCaprio",
+          "birth_year": 1974,
+          "awards_count": 23,
+          "movies_starred_in": ["Titanic", "Inception", "The Wolf of Wall Street", "Shutter Island"]
+        },
+        {
+          "name": "Kate Winslet",
+          "birth_year": 1975,
+          "awards_count": 15,
+          "movies_starred_in": ["Titanic", "Eternal Sunshine of the Spotless Mind", "The Reader", "Sense and Sensibility"]
+        },
+        {
+          "name": "Billy Zane",
+          "birth_year": 1966,
+          "awards_count": 1,
+          "movies_starred_in": ["Titanic", "The Phantom", "Dead Calm", "Sniper"]
+        }
+      ],
+      "price": 14.99,
+      "poster_link": "https://linktotheposter.com/titanic.jpg"
+    },
+    {
+      "id": "5",
+      "title": "The Grand Budapest Hotel",
+      "year": 2014,
+      "genre": "Comedy, Drama",
+      "director": {
+        "name": "Wes Anderson",
+        "birth_year": 1969,
+        "awards_count": 18,
+        "movies_directed": ["The Grand Budapest Hotel", "Moonrise Kingdom", "The Royal Tenenbaums", "Fantastic Mr. Fox"],
+        "years_of_directing": 25
+      },
+      "plot": "A concierge at a famous hotel teams up with one of his employees to solve the murder of a wealthy woman and secure a valuable painting.",
+      "rating": 8.1,
+      "actors": [
+        {
+          "name": "Ralph Fiennes",
+          "birth_year": 1962,
+          "awards_count": 8,
+          "movies_starred_in": ["The Grand Budapest Hotel", "Schindler's List", "The English Patient", "Harry Potter"]
+        },
+        {
+          "name": "F. Murray Abraham",
+          "birth_year": 1939,
+          "awards_count": 2,
+          "movies_starred_in": ["The Grand Budapest Hotel", "Amadeus", "Scarface", "The Name of the Rose"]
+        },
+        {
+          "name": "Tilda Swinton",
+          "birth_year": 1960,
+          "awards_count": 11,
+          "movies_starred_in": ["The Grand Budapest Hotel", "We Need to Talk About Kevin", "Michael Clayton", "Doctor Strange"]
+        },
+        {
+          "name": "Bill Murray",
+          "birth_year": 1950,
+          "awards_count": 12,
+          "movies_starred_in": ["The Grand Budapest Hotel", "Lost in Translation", "Ghostbusters", "The Royal Tenenbaums"]
+        }
+      ],
+      "price": 13.99,
+      "poster_link": "https://linktotheposter.com/thegrandbudapesthotel.jpg"
+    },
+    {
+      "id": "6",
+      "title": "The Terminator",
+      "year": 1984,
+      "genre": "Action, Sci-Fi, Thriller",
+      "director": {
+        "name": "James Cameron",
+        "birth_year": 1954,
+        "awards_count": 25,
+        "movies_directed": ["Titanic", "Avatar", "The Terminator", "Aliens"],
+        "years_of_directing": 42
+      },
+      "plot": "A cyborg assassin is sent back in time to kill the mother of the future leader of the human resistance against machines.",
+      "rating": 8.0,
+      "actors": [
+        {
+          "name": "Arnold Schwarzenegger",
+          "birth_year": 1947,
+          "awards_count": 10,
+          "movies_starred_in": ["The Terminator", "Terminator 2: Judgment Day", "Predator", "Total Recall"]
+        },
+        {
+          "name": "Linda Hamilton",
+          "birth_year": 1956,
+          "awards_count": 6,
+          "movies_starred_in": ["The Terminator", "Terminator 2: Judgment Day", "Dante's Peak", "Beauty and the Beast"]
+        },
+        {
+          "name": "Michael Biehn",
+          "birth_year": 1956,
+          "awards_count": 2,
+          "movies_starred_in": ["The Terminator", "Aliens", "The Abyss", "Tombstone"]
+        }
+      ],
+      "price": 9.99,
+      "poster_link": "https://linktotheposter.com/theterminator.jpg"
+    },
+    {
+      "id": "7",
+      "title": "The Wolf of Wall Street",
+      "year": 2013,
+      "genre": "Biography, Comedy, Drama",
+      "director": {
+        "name": "Martin Scorsese",
+        "birth_year": 1942,
+        "awards_count": 28,
+        "movies_directed": ["The Wolf of Wall Street", "Goodfellas", "Taxi Driver", "The Irishman"],
+        "years_of_directing": 56
+      },
+      "plot": "A stockbroker refuses to cooperate in a large securities fraud case involving corruption on Wall Street, the corporate banking world, and mob infiltration.",
+      "rating": 8.2,
+      "actors": [
+        {
+          "name": "Leonardo DiCaprio",
+          "birth_year": 1974,
+          "awards_count": 23,
+          "movies_starred_in": ["The Wolf of Wall Street", "Inception", "Titanic", "Shutter Island"]
+        },
+        {
+          "name": "Jonah Hill",
+          "birth_year": 1983,
+          "awards_count": 10,
+          "movies_starred_in": ["The Wolf of Wall Street", "22 Jump Street", "Superbad", "21 Jump Street"]
+        },
+        {
+          "name": "Margot Robbie",
+          "birth_year": 1990,
+          "awards_count": 10,
+          "movies_starred_in": ["The Wolf of Wall Street", "Suicide Squad", "I, Tonya", "Once Upon a Time in Hollywood"]
+        },
+        {
+          "name": "Matthew McConaughey",
+          "birth_year": 1969,
+          "awards_count": 13,
+          "movies_starred_in": ["The Wolf of Wall Street", "Dallas Buyers Club", "Interstellar", "True Detective"]
+        }
+      ],
+      "price": 12.99,
+      "poster_link": "https://linktotheposter.com/thewolfofwallstreet.jpg"
+    },
+    {
+      "id": "8",
+      "title": "Crank",
+      "year": 2006,
+      "genre": "Action, Crime, Thriller",
+      "director": {
+        "name": "Mark Neveldine",
+        "birth_year": 1973,
+        "awards_count": 3,
+        "movies_directed": ["Crank", "Crank: High Voltage", "Ghost Rider: Spirit of Vengeance"],
+        "years_of_directing": 15
+      },
+      "plot": "A hitman who has been poisoned is forced to keep his adrenaline pumping to stay alive while he hunts down those responsible for his predicament.",
+      "rating": 6.9,
+      "actors": [
+        {
+          "name": "Jason Statham",
+          "birth_year": 1967,
+          "awards_count": 5,
+          "movies_starred_in": ["Crank", "The Transporter", "The Expendables", "Lock, Stock and Two Smoking Barrels"]
+        },
+        {
+          "name": "Amy Smart",
+          "birth_year": 1976,
+          "awards_count": 4,
+          "movies_starred_in": ["Crank", "The Butterfly Effect", "Rat Race", "Road Trip"]
+        },
+        {
+          "name": "Jose Pablo Cantillo",
+          "birth_year": 1977,
+          "awards_count": 2,
+          "movies_starred_in": ["Crank", "The Walking Dead", "The Pursuit of Happyness", "Doom"]
+        }
+      ],
+      "price": 9.99,
+      "poster_link": "https://linktotheposter.com/crank.jpg"
+    },
+    {
+      "id": "9",
+      "title": "Salo, or the 120 Days of Sodom",
+      "year": 1975,
+      "genre": "Drama",
+      "director": {
+        "name": "Pier Paolo Pasolini",
+        "birth_year": 1922,
+        "awards_count": 3,
+        "movies_directed": ["Salo, or the 120 Days of Sodom", "The Gospel According to St. Matthew", "Accattone", "Teorema"],
+        "years_of_directing": 17
+      },
+      "plot": "A group of individuals in a period of turmoil explore themes of power, control, and societal breakdown.",
+      "rating": 6.9,
+      "actors": [
+        {
+          "name": "Paolo Bonacelli",
+          "birth_year": 1938,
+          "awards_count": 5,
+          "movies_starred_in": ["Salo, or the 120 Days of Sodom", "The Decameron", "The Howl", "Mamma Roma"]
+        },
+        {
+          "name": "Giorgio Cataldi",
+          "birth_year": 1953,
+          "awards_count": 2,
+          "movies_starred_in": ["Salo, or the 120 Days of Sodom", "The Canterbury Tales", "La Salamandra"]
+        },
+        {
+          "name": "Sergio Citti",
+          "birth_year": 1941,
+          "awards_count": 4,
+          "movies_starred_in": ["Salo, or the 120 Days of Sodom", "The Hawks and the Sparrows", "The Decameron", "Teorema"]
+        }
+      ],
+      "price": 19.99,
+      "poster_link": "https://linktotheposter.com/salo.jpg"
+    },
+    {
+      "id": "10",
+      "title": "A Serbian Film",
+      "year": 2010,
+      "genre": "Drama, Horror, Thriller",
+      "director": {
+        "name": "Srdjan Spasojević",
+        "birth_year": 1977,
+        "awards_count": 1,
+        "movies_directed": ["A Serbian Film"],
+        "years_of_directing": 12
+      },
+      "plot": "A retired porn star is lured back into the industry, only to find himself trapped in a nightmarish situation where his every move is controlled by dangerous forces.",
+      "rating": 5.3,
+      "actors": [
+        {
+          "name": "Srđan Todorović",
+          "birth_year": 1965,
+          "awards_count": 3,
+          "movies_starred_in": ["A Serbian Film", "The Woman Who Brushed Off Her Tears", "The Black Hole"]
+        },
+        {
+          "name": "Lena Kovačević",
+          "birth_year": 1981,
+          "awards_count": 2,
+          "movies_starred_in": ["A Serbian Film", "The Red Luggage"]
+        }
+      ],
+      "price": 14.99,
+      "poster_link": "https://linktotheposter.com/aserbianfilm.jpg"
+    },
+    {
+      "id": "11",
+      "title": "The Shawshank Redemption",
+      "year": 1994,
+      "genre": "Drama",
+      "director": {
+        "name": "Frank Darabont",
+        "birth_year": 1959,
+        "awards_count": 5,
+        "movies_directed": ["The Shawshank Redemption", "The Green Mile", "The Mist", "The Majestic"],
+        "years_of_directing": 32
+      },
+      "plot": "Two imprisoned men form a deep friendship, finding solace and eventual redemption through acts of common decency while serving time at Shawshank State Penitentiary.",
+      "rating": 9.3,
+      "actors": [
+        {
+          "name": "Tim Robbins",
+          "birth_year": 1958,
+          "awards_count": 12,
+          "movies_starred_in": ["The Shawshank Redemption", "Mystic River", "The Player", "Jacob's Ladder"]
+        },
+        {
+          "name": "Morgan Freeman",
+          "birth_year": 1937,
+          "awards_count": 34,
+          "movies_starred_in": ["The Shawshank Redemption", "Driving Miss Daisy", "Se7en", "Million Dollar Baby"]
+        },
+        {
+          "name": "Bob Gunton",
+          "birth_year": 1945,
+          "awards_count": 3,
+          "movies_starred_in": ["The Shawshank Redemption", "The Glimmer Man", "The Kennedys", "The Blair Witch Project 2: Book of Shadows"]
+        }
+      ],
+      "price": 14.99,
+      "poster_link": "https://linktotheposter.com/shawshankredemption.jpg"
+    },
+    {
+      "id": "12",
+      "title": "The Godfather",
+      "year": 1972,
+      "genre": "Crime, Drama",
+      "director": {
+        "name": "Francis Ford Coppola",
+        "birth_year": 1939,
+        "awards_count": 15,
+        "movies_directed": ["The Godfather", "Apocalypse Now", "The Godfather Part II", "The Conversation"],
+        "years_of_directing": 60
+      },
+      "plot": "The aging patriarch of an organized crime dynasty transfers control of his clandestine empire to his reluctant son, while facing betrayal and betrayal within his family.",
+      "rating": 9.2,
+      "actors": [
+        {
+          "name": "Marlon Brando",
+          "birth_year": 1924,
+          "awards_count": 14,
+          "movies_starred_in": ["The Godfather", "On the Waterfront", "A Streetcar Named Desire", "Apocalypse Now"]
+        },
+        {
+          "name": "Al Pacino",
+          "birth_year": 1940,
+          "awards_count": 34,
+          "movies_starred_in": ["The Godfather", "Scarface", "The Godfather Part II", "Scent of a Woman"]
+        },
+        {
+          "name": "James Caan",
+          "birth_year": 1940,
+          "awards_count": 4,
+          "movies_starred_in": ["The Godfather", "Misery", "Elf", "Thief"]
+        },
+        {
+          "name": "Diane Keaton",
+          "birth_year": 1946,
+          "awards_count": 7,
+          "movies_starred_in": ["The Godfather", "Annie Hall", "Reds", "Manhattan"]
+        }
+      ],
+      "price": 19.99,
+      "poster_link": "https://linktotheposter.com/thegodfather.jpg"
+    },
+    {
+      "id": "13",
+      "title": "The Dark Knight",
+      "year": 2008,
+      "genre": "Action, Crime, Drama",
+      "director": {
+        "name": "Christopher Nolan",
+        "birth_year": 1970,
+        "awards_count": 15,
+        "movies_directed": ["The Dark Knight", "Inception", "Interstellar", "Dunkirk"],
+        "years_of_directing": 33
+      },
+      "plot": "When the menace known as The Joker emerges from his mysterious past, he wreaks havoc and chaos on the people of Gotham, forcing Batman to consider his own identity and role in the city.",
+      "rating": 9.0,
+      "actors": [
+        {
+          "name": "Christian Bale",
+          "birth_year": 1974,
+          "awards_count": 5,
+          "movies_starred_in": ["The Dark Knight", "American Psycho", "The Prestige", "Ford v Ferrari"]
+        },
+        {
+          "name": "Heath Ledger",
+          "birth_year": 1979,
+          "awards_count": 31,
+          "movies_starred_in": ["The Dark Knight", "Brokeback Mountain", "10 Things I Hate About You", "A Knight's Tale"]
+        },
+        {
+          "name": "Aaron Eckhart",
+          "birth_year": 1968,
+          "awards_count": 4,
+          "movies_starred_in": ["The Dark Knight", "Thank You for Smoking", "Battle Los Angeles", "In the Company of Men"]
+        },
+        {
+          "name": "Maggie Gyllenhaal",
+          "birth_year": 1977,
+          "awards_count": 10,
+          "movies_starred_in": ["The Dark Knight", "Donnie Darko", "Brokeback Mountain", "Stranger Than Fiction"]
+        }
+      ],
+      "price": 14.99,
+      "poster_link": "https://linktotheposter.com/thedarkknight.jpg"
+    },
+    {
+      "id": "14",
+      "title": "The Godfather: Part II",
+      "year": 1974,
+      "genre": "Crime, Drama",
+      "director": {
+        "name": "Francis Ford Coppola",
+        "birth_year": 1939,
+        "awards_count": 7,
+        "movies_directed": ["The Godfather", "The Godfather: Part II", "Apocalypse Now", "The Conversation"],
+        "years_of_directing": 50
+      },
+      "plot": "The continuing saga of the Corleone crime family. The Godfather's empire is in turmoil as Michael Corleone grapples with his own moral dilemmas while trying to expand the family business.",
+      "rating": 9.0,
+      "actors": [
+        {
+          "name": "Al Pacino",
+          "birth_year": 1940,
+          "awards_count": 3,
+          "movies_starred_in": ["The Godfather: Part II", "Scarface", "The Godfather", "Scent of a Woman"]
+        },
+        {
+          "name": "Robert De Niro",
+          "birth_year": 1943,
+          "awards_count": 20,
+          "movies_starred_in": ["The Godfather: Part II", "Taxi Driver", "Goodfellas", "Casino"]
+        },
+        {
+          "name": "Diane Keaton",
+          "birth_year": 1946,
+          "awards_count": 7,
+          "movies_starred_in": ["The Godfather: Part II", "Annie Hall", "Reds", "The Godfather"]
+        },
+        {
+          "name": "Marlon Brando",
+          "birth_year": 1924,
+          "awards_count": 2,
+          "movies_starred_in": ["The Godfather", "A Streetcar Named Desire", "Apocalypse Now", "On the Waterfront"]
+        }
+      ],
+      "price": 24.99,
+      "poster_link": "https://linktotheposter.com/thegodfather2.jpg"
+    },
+    {
+      "id": "15",
+      "title": "12 Angry Men",
+      "year": 1957,
+      "genre": "Drama",
+      "director": {
+        "name": "Sidney Lumet",
+        "birth_year": 1924,
+        "awards_count": 4,
+        "movies_directed": ["12 Angry Men", "Dog Day Afternoon", "Network", "The Hill"],
+        "years_of_directing": 50
+      },
+      "plot": "A jury of twelve men must decide the fate of a teenager charged with murder. As the deliberations begin, one juror presents the case for reasonable doubt, sparking a heated discussion that reveals the personal biases and prejudices of the jurors.",
+      "rating": 9.0,
+      "actors": [
+        {
+          "name": "Henry Fonda",
+          "birth_year": 1905,
+          "awards_count": 2,
+          "movies_starred_in": ["12 Angry Men", "The Grapes of Wrath", "Once Upon a Time in the West", "The Oxbow Incident"]
+        },
+        {
+          "name": "Lee J. Cobb",
+          "birth_year": 1911,
+          "awards_count": 4,
+          "movies_starred_in": ["12 Angry Men", "The Virginian", "On the Waterfront", "The Exorcist"]
+        },
+        {
+          "name": "Martin Balsam",
+          "birth_year": 1919,
+          "awards_count": 1,
+          "movies_starred_in": ["12 Angry Men", "Psycho", "The Carpetbaggers", "A Thousand Clowns"]
+        },
+        {
+          "name": "Jack Klugman",
+          "birth_year": 1922,
+          "awards_count": 4,
+          "movies_starred_in": ["12 Angry Men", "The Odd Couple", "Quincy, M.E.", "The Twilight Zone"]
+        }
+      ],
+      "price": 19.99,
+      "poster_link": "https://linktotheposter.com/12angrymen.jpg"
+    },
+    {
+      "id": "16",
+      "title": "The Lord of the Rings: The Return of the King",
+      "year": 2003,
+      "genre": "Action, Adventure, Drama",
+      "director": {
+        "name": "Peter Jackson",
+        "birth_year": 1961,
+        "awards_count": 30,
+        "movies_directed": ["The Lord of the Rings: The Return of the King", "The Lord of the Rings: The Fellowship of the Ring", "The Lord of the Rings: The Two Towers", "King Kong"],
+        "years_of_directing": 40
+      },
+      "plot": "Gondor faces an army of Sauron's forces as the Battle for Middle-earth is set to begin. With the help of the loyal members of the Fellowship, Frodo must destroy the One Ring to save the world from the Dark Lord.",
+      "rating": 8.9,
+      "actors": [
+        {
+          "name": "Elijah Wood",
+          "birth_year": 1981,
+          "awards_count": 7,
+          "movies_starred_in": ["The Lord of the Rings: The Return of the King", "The Lord of the Rings: The Fellowship of the Ring", "The Lord of the Rings: The Two Towers", "Sin City"]
+        },
+        {
+          "name": "Ian McKellen",
+          "birth_year": 1939,
+          "awards_count": 14,
+          "movies_starred_in": ["The Lord of the Rings: The Return of the King", "The Lord of the Rings: The Fellowship of the Ring", "The Lord of the Rings: The Two Towers", "X-Men"]
+        },
+        {
+          "name": "Viggo Mortensen",
+          "birth_year": 1958,
+          "awards_count": 7,
+          "movies_starred_in": ["The Lord of the Rings: The Return of the King", "A History of Violence", "Eastern Promises", "Captain Fantastic"]
+        },
+        {
+          "name": "Orlando Bloom",
+          "birth_year": 1977,
+          "awards_count": 5,
+          "movies_starred_in": ["The Lord of the Rings: The Return of the King", "Pirates of the Caribbean: The Curse of the Black Pearl", "The Hobbit: The Desolation of Smaug", "Elizabethtown"]
+        }
+      ],
+      "price": 29.99,
+      "poster_link": "https://linktotheposter.com/returnoftheking.jpg"
+    },
+    {
+      "id": "17",
+      "title": "Schindler's List",
+      "year": 1993,
+      "genre": "Biography, Drama, History",
+      "director": {
+        "name": "Steven Spielberg",
+        "birth_year": 1946,
+        "awards_count": 62,
+        "movies_directed": ["Schindler's List", "Saving Private Ryan", "E.T. the Extra-Terrestrial", "Jurassic Park"],
+        "years_of_directing": 50
+      },
+      "plot": "Oskar Schindler, a German businessman, saves the lives of more than a thousand Polish Jews during the Holocaust by employing them in his factories.",
+      "rating": 9.0,
+      "actors": [
+        {
+          "name": "Liam Neeson",
+          "birth_year": 1952,
+          "awards_count": 10,
+          "movies_starred_in": ["Schindler's List", "Taken", "The Grey", "Batman Begins"]
+        },
+        {
+          "name": "Ben Kingsley",
+          "birth_year": 1943,
+          "awards_count": 5,
+          "movies_starred_in": ["Schindler's List", "Gandhi", "Shutter Island", "Sexy Beast"]
+        },
+        {
+          "name": "Ralph Fiennes",
+          "birth_year": 1962,
+          "awards_count": 14,
+          "movies_starred_in": ["Schindler's List", "The English Patient", "Harry Potter", "In Bruges"]
+        },
+        {
+          "name": "Caroline Goodall",
+          "birth_year": 1962,
+          "awards_count": 3,
+          "movies_starred_in": ["Schindler's List", "Hook", "The Princess Diaries", "The White Countess"]
+        }
+      ],
+      "price": 19.99,
+      "poster_link": "https://linktotheposter.com/schindlerslist.jpg"
+    },
+    {
+      "id": "18",
+      "title": "Pulp Fiction",
+      "year": 1994,
+      "genre": "Crime, Drama",
+      "director": {
+        "name": "Quentin Tarantino",
+        "birth_year": 1963,
+        "awards_count": 8,
+        "movies_directed": ["Pulp Fiction", "Reservoir Dogs", "Kill Bill: Vol. 1", "Inglourious Basterds"],
+        "years_of_directing": 30
+      },
+      "plot": "The lives of two mob hitmen, a boxer, a gangster's wife, and a pair of diner bandits intertwine in four tales of violence and redemption.",
+      "rating": 8.9,
+      "actors": [
+        {
+          "name": "John Travolta",
+          "birth_year": 1954,
+          "awards_count": 6,
+          "movies_starred_in": ["Pulp Fiction", "Grease", "Saturday Night Fever", "Get Shorty"]
+        },
+        {
+          "name": "Uma Thurman",
+          "birth_year": 1970,
+          "awards_count": 5,
+          "movies_starred_in": ["Pulp Fiction", "Kill Bill: Vol. 1", "Kill Bill: Vol. 2", "Dangerous Liaisons"]
+        },
+        {
+          "name": "Samuel L. Jackson",
+          "birth_year": 1948,
+          "awards_count": 12,
+          "movies_starred_in": ["Pulp Fiction", "Django Unchained", "The Avengers", "A Time to Kill"]
+        },
+        {
+          "name": "Bruce Willis",
+          "birth_year": 1955,
+          "awards_count": 3,
+          "movies_starred_in": ["Pulp Fiction", "Die Hard", "The Fifth Element", "The Sixth Sense"]
+        }
+      ],
+      "price": 19.99,
+      "poster_link": "https://linktotheposter.com/pulpfiction.jpg"
+    },
+    {
+      "id": "19",
+      "title": "The Lord of the Rings: The Fellowship of the Ring",
+      "year": 2001,
+      "genre": "Action, Adventure, Drama",
+      "director": {
+        "name": "Peter Jackson",
+        "birth_year": 1961,
+        "awards_count": 30,
+        "movies_directed": ["The Lord of the Rings: The Return of the King", "The Lord of the Rings: The Fellowship of the Ring", "The Lord of the Rings: The Two Towers", "King Kong"],
+        "years_of_directing": 40
+      },
+      "plot": "A young hobbit named Frodo Baggins, along with a group of companions, sets out on a journey to destroy a powerful ring that could bring the world to the brink of destruction.",
+      "rating": 8.8,
+      "actors": [
+        {
+          "name": "Elijah Wood",
+          "birth_year": 1981,
+          "awards_count": 7,
+          "movies_starred_in": ["The Lord of the Rings: The Fellowship of the Ring", "The Lord of the Rings: The Return of the King", "The Lord of the Rings: The Two Towers", "Sin City"]
+        },
+        {
+          "name": "Ian McKellen",
+          "birth_year": 1939,
+          "awards_count": 14,
+          "movies_starred_in": ["The Lord of the Rings: The Fellowship of the Ring", "The Lord of the Rings: The Return of the King", "The Lord of the Rings: The Two Towers", "X-Men"]
+        },
+        {
+          "name": "Viggo Mortensen",
+          "birth_year": 1958,
+          "awards_count": 7,
+          "movies_starred_in": ["The Lord of the Rings: The Fellowship of the Ring", "The Lord of the Rings: The Two Towers", "The Lord of the Rings: The Return of the King", "A History of Violence"]
+        },
+        {
+          "name": "Orlando Bloom",
+          "birth_year": 1977,
+          "awards_count": 5,
+          "movies_starred_in": ["The Lord of the Rings: The Fellowship of the Ring", "Pirates of the Caribbean: The Curse of the Black Pearl", "Elizabethtown", "The Hobbit: The Desolation of Smaug"]
+        }
+      ],
+      "price": 29.99,
+      "poster_link": "https://linktotheposter.com/fellowshipofthering.jpg"
+    },
+    {
+      "id": "20",
+      "title": "The Good, the Bad and the Ugly",
+      "year": 1966,
+      "genre": "Western",
+      "director": {
+        "name": "Sergio Leone",
+        "birth_year": 1929,
+        "awards_count": 5,
+        "movies_directed": ["The Good, the Bad and the Ugly", "Once Upon a Time in the West", "For a Few Dollars More", "A Fistful of Dollars"],
+        "years_of_directing": 20
+      },
+      "plot": "In the Old West, three men seek a fortune in buried gold, but their search is complicated by a series of double-crosses, betrayals, and battles.",
+      "rating": 8.8,
+      "actors": [
+        {
+          "name": "Clint Eastwood",
+          "birth_year": 1930,
+          "awards_count": 20,
+          "movies_starred_in": ["The Good, the Bad and the Ugly", "Dirty Harry", "A Fistful of Dollars", "Unforgiven"]
+        },
+        {
+          "name": "Lee Van Cleef",
+          "birth_year": 1925,
+          "awards_count": 2,
+          "movies_starred_in": ["The Good, the Bad and the Ugly", "For a Few Dollars More", "Escape from New York", "The Big Combo"]
+        },
+        {
+          "name": "Eli Wallach",
+          "birth_year": 1915,
+          "awards_count": 6,
+          "movies_starred_in": ["The Good, the Bad and the Ugly", "The Magnificent Seven", "The Misfits", "The Godfather: Part III"]
+        }
+      ],
+      "price": 14.99,
+      "poster_link": "https://linktotheposter.com/thegoodthebadandtheugly.jpg"
+    },
+    {
+      "id": "21",
+      "title": "Forrest Gump",
+      "year": 1994,
+      "genre": "Drama, Romance",
+      "director": {
+        "name": "Robert Zemeckis",
+        "birth_year": 1952,
+        "awards_count": 6,
+        "movies_directed": ["Forrest Gump", "Back to the Future", "Cast Away", "The Polar Express"],
+        "years_of_directing": 40
+      },
+      "plot": "The presidencies of Kennedy and Johnson, the events of Vietnam, the Watergate scandal and other historical events unfold from the perspective of an Alabama man with an extraordinary life story.",
+      "rating": 8.8,
+      "actors": [
+        {
+          "name": "Tom Hanks",
+          "birth_year": 1956,
+          "awards_count": 20,
+          "movies_starred_in": ["Forrest Gump", "Cast Away", "Saving Private Ryan", "Big"]
+        },
+        {
+          "name": "Robin Wright",
+          "birth_year": 1966,
+          "awards_count": 7,
+          "movies_starred_in": ["Forrest Gump", "The Princess Bride", "House of Cards", "The Girl with the Dragon Tattoo"]
+        },
+        {
+          "name": "Gary Sinise",
+          "birth_year": 1955,
+          "awards_count": 4,
+          "movies_starred_in": ["Forrest Gump", "Apollo 13", "Ransom", "The Green Mile"]
+        },
+        {
+          "name": "Mykelti Williamson",
+          "birth_year": 1957,
+          "awards_count": 2,
+          "movies_starred_in": ["Forrest Gump", "Heat", "Fried Green Tomatoes", "Con Air"]
+        }
+      ],
+      "price": 19.99,
+      "poster_link": "https://linktotheposter.com/forrestgump.jpg"
+    },
+    {
+      "id": "22",
+      "title": "The Lord of the Rings: The Two Towers",
+      "year": 2002,
+      "genre": "Action, Adventure, Drama",
+      "director": {
+        "name": "Peter Jackson",
+        "birth_year": 1961,
+        "awards_count": 30,
+        "movies_directed": ["The Lord of the Rings: The Return of the King", "The Lord of the Rings: The Fellowship of the Ring", "The Lord of the Rings: The Two Towers", "King Kong"],
+        "years_of_directing": 40
+      },
+      "plot": "Frodo Baggins and Samwise Gamgee continue their quest to destroy the One Ring, while the fellowship is scattered and a new battle between good and evil looms in the land of Middle-earth.",
+      "rating": 8.7,
+      "actors": [
+        {
+          "name": "Elijah Wood",
+          "birth_year": 1981,
+          "awards_count": 7,
+          "movies_starred_in": ["The Lord of the Rings: The Two Towers", "The Lord of the Rings: The Return of the King", "The Lord of the Rings: The Fellowship of the Ring", "Sin City"]
+        },
+        {
+          "name": "Ian McKellen",
+          "birth_year": 1939,
+          "awards_count": 14,
+          "movies_starred_in": ["The Lord of the Rings: The Two Towers", "The Lord of the Rings: The Return of the King", "The Lord of the Rings: The Fellowship of the Ring", "X-Men"]
+        },
+        {
+          "name": "Viggo Mortensen",
+          "birth_year": 1958,
+          "awards_count": 7,
+          "movies_starred_in": ["The Lord of the Rings: The Two Towers", "The Lord of the Rings: The Fellowship of the Ring", "The Lord of the Rings: The Return of the King", "A History of Violence"]
+        },
+        {
+          "name": "Orlando Bloom",
+          "birth_year": 1977,
+          "awards_count": 5,
+          "movies_starred_in": ["The Lord of the Rings: The Two Towers", "Pirates of the Caribbean: The Curse of the Black Pearl", "Elizabethtown", "The Hobbit: The Desolation of Smaug"]
+        }
+      ],
+      "price": 24.99,
+      "poster_link": "https://linktotheposter.com/twotowers.jpg"
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+  ]
+}
