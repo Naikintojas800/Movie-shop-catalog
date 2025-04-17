@@ -20,8 +20,11 @@ class shopfront:
         print('3 - Leave :(')  
         print('What will it be?\n')
         self.le_choise = input('Select 1-3 :')
+        print('\n')
 
         if self.le_choise == '1':
+           
+         while True:
 
             print('welcome to our catalog')
             print('Here you can view our list of movies their, actors, directors and the info about said movies')
@@ -31,8 +34,10 @@ class shopfront:
             print('Info about a specifict actor  - 4')
             print('Info about a specifict director  - 5')
             print('Info about a specifict movie  - 6')
+            print('Exit - 7')
             print('What will it be?')
             self.le_smoler_choise = input('Select 1-6 :')
+            print('\n')
 
             if self.le_smoler_choise == '1':
                 self.query.all_movies()
@@ -44,17 +49,37 @@ class shopfront:
                self.query.all_directors()
 
             elif self.le_smoler_choise == '4':
-               self.serchting = input('Select the name of actor')
+               self.serchting = input('Select the name of actor : ')
                self.query.actor_info(self.serchting)   
 
             elif self.le_smoler_choise == '5':
-               self.serchting = input('Select the name of director')
+               self.serchting = input('Select the name of director : ')
                self.query.director_info(self.serchting) 
 
             elif self.le_smoler_choise == '6':
-               self.query.movie_info()         
+               self.query.movie_info()   
+
+            elif self.le_smoler_choise == '7':
+               break
+
+            else:
+               print('wrong input, try again')         
+
+        elif self.le_choise == '2':
+            
+            self.purchase.add_to_cart()
+
+        elif self.le_choise == '3':
+           
+           print(f'Its sad to see you gom goodbye and see you soon we hope') 
+           break
+        
+        else:
+           print('Try again wrong input')    
 
 
+           
+           
 
 
 

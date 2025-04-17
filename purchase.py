@@ -1,5 +1,7 @@
+
+
 class Purchase:
-    def __init__(self, movie_list):
+    def __init__(self, movie_list, Time):
         self.name = None
         self.cost = 0
         self.choice = None
@@ -7,10 +9,18 @@ class Purchase:
         self.__movie_list = movie_list
         self.subchoise = None
         self.id = None
+        self.time = Time
+
+
+    def log(self, message):
+        with open('logs.txt', 'a', encoding='utf-8') as file:
+            file.write(message + '\n')    
 
     def add_to_cart(self):
             
         while True:
+         print('welcome to your shopping cart')
+         print('Here you can view your shopping cart, add or remove from it, or make a purchase')
          print('\nWhat would you like to do?')
          print('1 - Add to cart')
          print('2 - Remove from cart')
@@ -37,12 +47,16 @@ class Purchase:
                           self.cart.append(movie.give_title())
                           self.cost += movie.give_price()
                           found = True
+                          self.log(f'Function "Add to cart" was used using id {self.id}, adding {self.cost} to purchase - {self.time.get_time()}')
+
                           break
                   if not found:
                     print(
                         f'No movie found with the name - {self.name}\n'
                         'Check if the movie is in our database, or if the name is written correctly.'
                     )
+                    self.log(f'Function "Add to cart" was used using id {self.id}, but no such movie was found - {self.time.get_time()}')
+
               elif self.subchoise == '2':
 
                  self.name = input("Enter the name of the movie you wish to buy: ")
@@ -52,12 +66,14 @@ class Purchase:
                         self.cart.append(movie.give_title())
                         self.cost += movie.give_price()
                         found = True
+                        self.log(f'Function "Add to cart" was used using tittle {self.name}, adding {self.cost} to purchase - {self.time.get_time()}')
                         break
                  if not found:
                     print(
                         f'No movie found with the name - {self.name}\n'
                         'Check if the movie is in our database, or if the name is written correctly.'
                     )
+                    self.log(f'Function "Add to cart" was used using tittle {self.name}, but was not found - {self.time.get_time()}')
 
          elif self.choice == '2':
             
@@ -71,27 +87,35 @@ class Purchase:
                             if movie.give_title() == self.name:
                                 self.cost -= movie.give_price()
                         found = True
+                        self.log(f'Function "Remove From cart" was used using tittle {self.name}, removing {self.cost} to purchase - {self.time.get_time()}')
                         break
                 if not found:
                     print(
                         f'No movie found with the name - {self.name}\n'
                         'Check if the movie is in your cart or if the name is written correctly.'
                     )
+                    self.log(f'Function "Remove from cart" was used using tittle {self.name}, but no such movie was found in cart - {self.time.get_time()}')
 
          elif self.choice == '3':
                 print("\nItems in your cart:")
                 for item in self.cart:
                     print(f"- {item}")
                 print(f'\nTotal Price: {self.cost}')
+                self.log(f'Function "Show cart" was used - {self.time.get_time()}')
 
          elif self.choice == '4':
                 print(f'\nThe cost of your purchase: {self.cost}')
                 print('Thank you for your purchase!')
+                self.log(f'Function "Purchase" was used for the price of {self.cost}- {self.time.get_time()}')
+                print('\n')
+                self.cost = 0
+                self.cart = []
                 break
 
          elif self.choice == '5':
-                print("Goodbye!")
+                print('\n')
                 break
 
          else:
                 print("Invalid selection. Please try again.")
+                self.log(f'Invalid selection in purchase sector - {self.time.get_time()}')
