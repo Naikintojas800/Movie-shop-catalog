@@ -93,13 +93,6 @@ class Main:
  def get_director_list(self):
     return self.directors_list
  
-
-
-
-
-    
-        
-#replit. com 
  
 
 

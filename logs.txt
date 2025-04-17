@@ -26,3 +26,21 @@ Function "movie_info" was called, using the name - "What We Do in the Shadows" -
 Function "movie_info" was called, using the name - "The Terminator" - 2025-04-12 23:07:54
 Function "actor_info" was called, using the name - "Arnold Schwarzenegger" - 2025-04-12 23:09:03
 Function "actor_info" was called, using the name - "Paolo Bonacelli" - 2025-04-12 23:10:45
+Function "actor_info" was called, using the name - "Paolo Bonacelli" - 2025-04-15 13:55:27
+Function "actor_info" was called, using the name - "Paolo Bonacelli" - 2025-04-17 16:28:56
+Function "actor_info" was called, using the name - "Paolo Bonacelli" - 2025-04-17 16:29:45
+Function "actor_info" was called, using the name - "Paolo Bonacelli" - 2025-04-17 16:29:56
+Function "actor_info" was called, using the name - "Paolo Bonacelli" - 2025-04-17 16:30:42
+Function "actor_info" was called, using the name - "Paolo Bonacelli" - 2025-04-17 16:31:59
+Function "actor_info" was called, using the name - "Paolo Bonacelli" - 2025-04-17 16:32:32
+Function "actor_info" was called, using the name - "Paolo Bonacelli" - 2025-04-17 16:33:35
+Function "actor_info" was called, using the name - "Paolo Bonacelli" - 2025-04-17 16:34:03
+Function "actor_info" was called, using the name - "Paolo Bonacelli" - 2025-04-17 16:34:03
+Function "actor_info" was called, using the name - "Paolo Bonacelli" - 2025-04-17 16:35:22
+Function "actor_info" was called, using the name - "Paolo Bonacelli" - 2025-04-17 16:35:30
+Function "actor_info" was called, using the name - "Paolo Bonacelli" - 2025-04-17 16:35:53
+Function "actor_info" was called, using the name - "Ellen Page" - 2025-04-17 16:36:18
+Function "all_movies" was called - 2025-04-17 18:20:55
+Function "all_movies" was called - 2025-04-17 18:21:18
+Function "all_movies" was called - 2025-04-17 18:22:09
+Function "movie_info" was called, using id - "2" - 2025-04-17 18:22:38
