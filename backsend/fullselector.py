@@ -1,6 +1,3 @@
-from query import Query
-from purchase import Purchase
-
 class shopfront:
     def __init__(self, purchase, query):
         self.le_choise = None
@@ -12,20 +9,23 @@ class shopfront:
     def le_shop_fronte(self):
     
      while True:
-
+        
+        print("*****************************************************")
         print('Hello and welcome to our shop\n')
         print('What would you like to do?')  
         print('1 - View our catalog and get info on : Movies, Actors, Directors')  
         print('2 - View your shoping cart, add to it, remove from it, and make a purchase')  
         print('3 - Leave :(')  
         print('What will it be?\n')
-        self.le_choise = input('Select 1-3 :')
+        self.le_choise = input('Select 1-3 : ')
+        print("*****************************************************")
         print('\n')
 
         if self.le_choise == '1':
            
          while True:
-
+            
+            print("*****************************************************")
             print('welcome to our catalog')
             print('Here you can view our list of movies their, actors, directors and the info about said movies')
             print('Our list of movies - 1')
@@ -36,7 +36,8 @@ class shopfront:
             print('Info about a specifict movie  - 6')
             print('Exit - 7')
             print('What will it be?')
-            self.le_smoler_choise = input('Select 1-6 :')
+            self.le_smoler_choise = input('Select 1-7 : ')
+            print("*****************************************************")
             print('\n')
 
             if self.le_smoler_choise == '1':

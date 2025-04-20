@@ -1,8 +1,8 @@
-from query import Query
+from backsend.query import Query
 from Movie_creator_with_distinct_actors import Main
-from purchase import Purchase 
-from fullselector import shopfront
-from timeclass import TimeCurrent
+from backsend.purchase import Purchase 
+from backsend.fullselector import shopfront
+from micselaniuos.timeclass import TimeCurrent
 
 
 
@@ -20,3 +20,4 @@ Cart = Purchase(movie_list, Time)
 shop = shopfront(Cart, query)
 
 shop.le_shop_fronte()
+

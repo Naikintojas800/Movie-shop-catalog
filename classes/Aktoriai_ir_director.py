@@ -23,7 +23,7 @@ class Actors(Human):
         return self.__list_of_movies_starred_in
 
     def give_awards_received(self):
-        return self.__awards_received
+        return f'{self.__awards_received} for acting'
 
 
 class Directors(Human):
@@ -37,7 +37,7 @@ class Directors(Human):
         return self.__list_of_movies_directed
 
     def give_awards_received(self):
-        return self.__awards_received
+        return f'{self.__awards_received} for directing'
 
     def give_years_of_directing(self):
         return self.__years_of_directing

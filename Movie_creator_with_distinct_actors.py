@@ -1,7 +1,8 @@
 import json
-from Builder_director import DirectorBuilder
-from Builder_actors import ActorBuilder
-from Moviebuilder import MovieBuilder
+from builder.Builder_director import DirectorBuilder
+from builder.Builder_actors import ActorBuilder
+from builder.Moviebuilder import MovieBuilder
+import os
 
 class Main:
  def __init__(self):
@@ -43,7 +44,10 @@ class Main:
  
 
  def run(self):
-  with open('Duomenis_Filmam.json', 'r') as file:
+  
+  path = os.path.join(os.path.dirname(__file__), 'data', 'Duomenis_Filmam.json')
+  path = os.path.abspath(path)
+  with open(path, 'r') as file:
     data = json.load(file)
 
   for movie_data in data['movies']:

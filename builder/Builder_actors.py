@@ -1,4 +1,4 @@
-from Aktoriai_ir_director import Actors
+from classes.Aktoriai_ir_director import Actors
 
 
 class ActorBuilder:

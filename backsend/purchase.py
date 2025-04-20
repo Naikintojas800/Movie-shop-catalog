@@ -1,5 +1,4 @@
-
-
+import os
 class Purchase:
     def __init__(self, movie_list, Time):
         self.name = None
@@ -10,15 +9,23 @@ class Purchase:
         self.subchoise = None
         self.id = None
         self.time = Time
+        self.objectprice = 0
 
 
     def log(self, message):
-        with open('logs.txt', 'a', encoding='utf-8') as file:
-            file.write(message + '\n')    
+        path = 'C:\\Users\\mazut\\Desktop\\Movie-shop-catalog\\data\\logs.txt'
+        log_dir = os.path.dirname(path)
+        if not os.path.exists(log_dir):
+         os.makedirs(log_dir)
+        with open(path, 'a', encoding='utf-8') as file:
+            file.write(message + '\n')
 
+
+    
     def add_to_cart(self):
             
         while True:
+         print("*****************************************************")
          print('welcome to your shopping cart')
          print('Here you can view your shopping cart, add or remove from it, or make a purchase')
          print('\nWhat would you like to do?')
@@ -28,26 +35,28 @@ class Purchase:
          print('4 - Purchase')
          print('5 - End interaction \n')
 
-         self.choice = input("Select an option (1-5): ")
+         self.choice = input("Select an option (1-5) : ")
+         print("*****************************************************")
 
          if self.choice == '1':
               
               print(f'Will you use the ID or Tittle?\n')
               print(f'Id - 1 ')
               print(f'Tittle - 2 ')
-              self.subchoise = input("Select an option (1-2):")
+              self.subchoise = input("Select an option (1-2) : ")
               print('\n')
 
               if self.subchoise == '1':
                 
-                  self.id = input("Enter the id of the movie you wish to buy: ")
+                  self.id = input("Enter the id of the movie you wish to buy : ")
                   found = False 
                   for movie in self.__movie_list:
                       if movie.give_id() == self.id:
                           self.cart.append(movie.give_title())
+                          self.objectprice = movie.give_price()
                           self.cost += movie.give_price()
                           found = True
-                          self.log(f'Function "Add to cart" was used using id {self.id}, adding {self.cost} to purchase - {self.time.get_time()}')
+                          self.log(f'Function "Add to cart" was used using id {self.id}, adding {self.objectprice} to purchase - {self.time.get_time()}')
 
                           break
                   if not found:
@@ -59,14 +68,15 @@ class Purchase:
 
               elif self.subchoise == '2':
 
-                 self.name = input("Enter the name of the movie you wish to buy: ")
+                 self.name = input("Enter the name of the movie you wish to buy : ")
                  found = False
                  for movie in self.__movie_list:
                     if movie.give_title() == self.name:
                         self.cart.append(movie.give_title())
+                        self.objectprice = movie.give_price()
                         self.cost += movie.give_price()
                         found = True
-                        self.log(f'Function "Add to cart" was used using tittle {self.name}, adding {self.cost} to purchase - {self.time.get_time()}')
+                        self.log(f'Function "Add to cart" was used using tittle {self.name}, adding {self.objectprice} to purchase - {self.time.get_time()}')
                         break
                  if not found:
                     print(
@@ -77,7 +87,7 @@ class Purchase:
 
          elif self.choice == '2':
             
-                self.name = input("Enter the name of the movie you wish to remove from the cart: ")
+                self.name = input("Enter the name of the movie you wish to remove from the cart : ")
                 found = False
                 for movie_in_list in self.cart:
                     if movie_in_list == self.name:
@@ -87,7 +97,7 @@ class Purchase:
                             if movie.give_title() == self.name:
                                 self.cost -= movie.give_price()
                         found = True
-                        self.log(f'Function "Remove From cart" was used using tittle {self.name}, removing {self.cost} to purchase - {self.time.get_time()}')
+                        self.log(f'Function "Remove From cart" was used using tittle {self.name}, removing {self.objectprice} to purchase - {self.time.get_time()}')
                         break
                 if not found:
                     print(

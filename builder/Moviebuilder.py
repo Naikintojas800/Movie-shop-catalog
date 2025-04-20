@@ -1,4 +1,4 @@
-from Movie import Movie
+from classes.Movie import Movie
 
 
 class MovieBuilder:

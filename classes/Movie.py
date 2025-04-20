@@ -1,4 +1,3 @@
-
 class Movie:
     def __init__(self, title, movie_id, year, number_of_awards, genre, director, plot, rating, actors, price, poster_link):
         self.__movie_id = movie_id
@@ -35,7 +34,7 @@ class Movie:
         return self.__rating
 
     def give_price(self):
-        return self.__price
+        return float(self.__price)
 
     def give_poster_link(self):
         return self.__poster_link

@@ -1,5 +1,6 @@
-from Movie_creator_with_distinct_actors import Main
 import textwrap
+from micselaniuos.decorator import me_DICAROTORer
+import os
 
 
 class Query:
@@ -11,33 +12,37 @@ class Query:
         self.moviename = None
         self.Time = Time
 
-
+    
     def log(self, message):
-        with open('logs.txt', 'a', encoding='utf-8') as file:
+        path = 'C:\\Users\\mazut\\Desktop\\Movie-shop-catalog\\data\\logs.txt'
+        log_dir = os.path.dirname(path)
+        if not os.path.exists(log_dir):
+         os.makedirs(log_dir)
+        with open(path, 'a', encoding='utf-8') as file:
             file.write(message + '\n')
 
-
+    @me_DICAROTORer
     def all_movies(self):
         for movie in self.__movie_list:
             print(f'{movie.give_title()} : ID - {movie.give_id()}')
         print('\n')    
         self.log(f'Function "all_movies" was called - {self.Time.get_time()}')
 
-
+    @me_DICAROTORer
     def all_actors(self):
         for actor in self.__actor_list:
             print(actor.give_name())
         print('\n')     
         self.log(f'Function "all_actors" was called - {self.Time.get_time()}')
 
-
+    @me_DICAROTORer
     def all_directors(self):
         for director in self.__director_list:
             print(director.give_name())
         print('\n')     
         self.log(f'Function "all_directors" was called - {self.Time.get_time()}')
 
-
+    @me_DICAROTORer
     def actor_info(self, actor_name):
         found = False
         for actor in self.__actor_list:
@@ -55,7 +60,7 @@ class Query:
             print(f'No actors found with the name - {actor_name} \n Check if the actor is in our database, or check if the name is written correctly')
             self.log(f'Function "actor_info" was called, using the name - "{actor_name}", but was unsuccessful - {self.Time.get_time()}')
 
-
+    @me_DICAROTORer
     def director_info(self, director_name):
         found = False
         for director in self.__director_list:
@@ -64,7 +69,7 @@ class Query:
                 print(f"{'Year of Birth:':<25} {director.give_year_of_birth()}")
                 print(f"{'Awards Received:':<25} {director.give_awards_received()}")
                 print(f"{'Years directing:':<25} {director.give_years_of_directing()}")
-                print(f"{'Movies directed:':<25} {director.give_list_of_movies_starred_in()}")
+                print(f"{'Movies directed:':<25} {director.give_list_of_movies_directed()}")
                 print('\n') 
                 found = True
                 self.log(f'Function "director_info" was called, using the name - "{director.give_name()}" - {self.Time.get_time()}')
@@ -74,18 +79,18 @@ class Query:
             print(f'No directors found with the name - {director_name} \n Check if the director is in our database, or check if the name is written correctly')
             self.log(f'Function "director_info" was called, using the name - "{director_name}", but was unsuccessful - {self.Time.get_time()}')
 
-
+    @me_DICAROTORer
     def movie_info(self):
         
         print(f'Will you use the ID or Tittle?\n')
         print(f'Id - 1 ')
         print(f'Tittle - 2 ')
-        self.choise = input("Select an option (1-2):")
+        self.choise = input("Select an option (1-2) : ")
         print('\n')
 
         if self.choise == '1':
 
-            self.movie_id = input('Input the Id of the movie you would like to see: ')
+            self.movie_id = input('Input the Id of the movie you would like to see : ')
             print('\n')
 
             found = False
@@ -137,7 +142,7 @@ class Query:
 
         elif self.choise == '2':
           
-          self.movie_id = input('Input the Id of the movie you would like to see: ')
+          self.movie_id = input('Input the Id of the movie you would like to see : ')
           print('\n')
           
 
