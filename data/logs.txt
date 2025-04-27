@@ -164,3 +164,11 @@ Function "all_actors" was called - 2025-04-20 17:48:16
 Function "all_directors" was called - 2025-04-20 17:48:17
 Function "all_movies" was called - 2025-04-20 17:48:18
 Function "Add to cart" was used using id 1, adding 19.99 to purchase - 2025-04-20 17:51:34
+Function "all_movies" was called - 2025-04-20 20:14:40
+Function "movie_info" was called, using id - "20" - 2025-04-20 20:15:27
+Function "all_movies" was called - 2025-04-20 20:16:34
+Function "all_actors" was called - 2025-04-20 20:16:41
+Function "all_directors" was called - 2025-04-20 20:16:58
+Function "director_info" was called, using the name - "Frank Darabont" - 2025-04-20 20:17:24
+Function "director_info" was called, using the name - "James Cameron" - 2025-04-20 20:18:55
+Function "all_movies" was called - 2025-04-27 13:45:51

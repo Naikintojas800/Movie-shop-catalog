@@ -3,7 +3,7 @@ import os
 import unittest
 
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
-from classes.Aktoriai_ir_director import Actors, Directors
+from classes.Actor_and_director import Actors, Directors
 
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 from classes.Movie import Movie

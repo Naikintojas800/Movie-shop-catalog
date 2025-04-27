@@ -1,4 +1,4 @@
-from classes.Aktoriai_ir_director import Directors
+from classes.Actor_and_director import Directors
 
 
 class DirectorBuilder:

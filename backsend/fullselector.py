@@ -19,7 +19,7 @@ class shopfront:
         print('What will it be?\n')
         self.le_choise = input('Select 1-3 : ')
         print("*****************************************************")
-        print('\n')
+        
 
         if self.le_choise == '1':
            
@@ -38,7 +38,7 @@ class shopfront:
             print('What will it be?')
             self.le_smoler_choise = input('Select 1-7 : ')
             print("*****************************************************")
-            print('\n')
+         
 
             if self.le_smoler_choise == '1':
                 self.query.all_movies()

@@ -45,7 +45,7 @@ class Main:
 
  def run(self):
   
-  path = os.path.join(os.path.dirname(__file__), 'data', 'Duomenis_Filmam.json')
+  path = os.path.join(os.path.dirname(__file__), 'data', 'Data_for_movie.json')
   path = os.path.abspath(path)
   with open(path, 'r') as file:
     data = json.load(file)
