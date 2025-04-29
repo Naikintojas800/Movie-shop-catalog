@@ -7,7 +7,12 @@
 * Body/Analysis  
   * Polymorphism/inheritance/abstraction/encapsulation  
     
-    They are implemented in this class alone:
+    They are implemented in this class alone:  
+    Abstraction is used in the human class it serves as the basis for the Actor ar Director classes  
+    Inheritance is used to create the Actor and Director classes from the Human class wich in this case is the father class
+    Polymorphism is used in the method 'Give_awards_received'  
+    Encapsulation is used in all 3 classes as all variables are previte and the only way to get them is by using methods  
+    
 
     ```python
     from abc import ABC
